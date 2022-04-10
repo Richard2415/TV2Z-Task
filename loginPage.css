@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Estonia&family=Poppins:wght@700;800&family=Roboto:wght@300;400&family=Shippori+Antique+B1&display=swap");
+
+body {
+  background: linear-gradient(#091422 100%, #091422 84.8%, #091422 0%);
+}
+
+.page-header {
+  color: #ffffff;
+  background-size: cover;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-left: 20px;
+  margin-top: 18px;
+}
+
+.right {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding-right: 20px;
+  padding-top: 18px;
+}
+
+.page-body {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.log-in {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.credentials {
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.email-password {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-type {
+  height: 40px;
+  width: 20%;
+  font-size: 20px;
+  margin-left: 4px;
+  margin-right: 30px;
+  border-radius: 5px;
+  padding-left: 20px;
+  margin-top: 7px;
+}
+
+#emailContent {
+  margin-left: 28%;
+}
+
+#passwordContent {
+  margin-right: 20%;
+}
+
+.error {
+  color: #be1919;
+  padding-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.forgot-password {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.agree {
+  font-size: 18px;
+}
+
+.account {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.click {
+  font-weight: 200;
+  padding-left: 4px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.log-button {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #03aad3, #091422 250%);
+  border-radius: 5px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.eyeIcon {
+  position: absolute;
+  transform: translate(0, -50%);
+  right: 26.2rem;
+  top: 19.05rem;
+  color: #4d4d4d;
+  cursor: pointer;
+  float: none;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-weight: 200;
+  color: #4d4d4d;
+}
+
+.page-footer {
+  background-color: #101827;
+  height: 8vh;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

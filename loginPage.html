@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="loginPage.css" />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>TV2Z Login Page</title>
+  </head>
+
+  <body>
+    <div id="logInContainer">
+      <div class="page-header">
+        <div class="header">
+          <h1 class="left">TV2Z</h1>
+          <h1 class="right">LOG IN</h1>
+        </div>
+
+        <div class="page-body">
+          <h1 class="log-in">LOG IN</h1>
+          <p class="credentials">Enter your credentials to log in to TV2Z</p>
+          <div class="email-password">
+            <input
+              class="input-type email"
+              placeholder="Email"
+              id="emailContent"
+            />
+            <input
+              class="input-type password"
+              placeholder="Password"
+              id="passwordContent"
+              type="password"
+            />
+            <span class="eyeIcon"
+              ><i
+                class="fa-solid fa-eye-slash"
+                aria-hidden="true"
+                id="eye"
+                onclick="toggle()"
+              ></i
+            ></span>
+          </div>
+          <p class="error" id="error-message"></p>
+          <p class="forgot-password">
+            Forgot password?<span class="click">Click here!</span>
+          </p>
+          <p class="agree">
+            By clicking on 'Log in' button, you are hereby agreeing to our
+            <span class="click">Privacy Policy</span> and
+            <span class="click">Terms & Conditions</span>
+          </p>
+          <button class="log-button" id="logInButton">LOG IN</button>
+          <p class="account">
+            Don't have an account?<span class="click">Sign up!</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="page-footer">
+        <p class="footer-text">&copy; 2020 WT TV2Z. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
